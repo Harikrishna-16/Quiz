@@ -5,12 +5,12 @@ import random
 from pymongo import MongoClient # type: ignore
 
 app = Flask(__name__)
-exam_questions=[]
-host = "ocdb.app"
-port = 5050
-database = "db_42zqr2452" # your database
-username = "user_42zqr2452" # your username
-password = "p42zqr2452" # your password
+# exam_questions=[]
+# host = "ocdb.app"
+# port = 5050
+# database = "db_42zqr2452" # your database
+# username = "user_42zqr2452" # your username
+# password = "p42zqr2452" # your password
  
 connection_string = f"mongodb://{username}:{password}@{host}:{port}/{database}"
 my_client = MongoClient(connection_string)
